@@ -18,4 +18,16 @@ function solve(arr){
         arr.sort((a,b) => a - b);
     }
     return sum + arr[1];
+
+    // alt solution
+
+    // let result = arr.sort((a, b) => b - a)
+    // let a = result[0]
+    // let b = result[1]
+    // let c = result[2]
+    // if(a > (b+c)){
+    //   return b+c
+    // } else {
+    //   return Math.floor((a+b+c) / 2)
+    // }
 }
