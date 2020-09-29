@@ -1,9 +1,4 @@
-# The Algorithm Repository - 
-
-[![contributions welcome]
-[![Language grade: JavaScript]
-![Node CI]
-![update_directory_md]
+# The Algorithm Repository 
 
 ### All algorithms implemented in JavaScript 
 
