@@ -4,7 +4,6 @@ let reverseCopy = x.toString().split("").reverse()
 let boolean = true
     for(let i = 0; i < numCopy.length; i++){
         if(numCopy[i] != reverseCopy[i]){
-            
             boolean = false
         }
     }
