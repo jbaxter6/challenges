@@ -21,3 +21,16 @@ function twoSums(nums, target){
 
     return []
 }
+
+function twoSums(nums, target){
+    const numsObj = {}
+
+    for(let i = 0; i < nums.length; i++){
+        const match = target - nums[i]
+        if(numsObj[match] >= 0){
+            return [numsObj[match], i]
+        }
+        numsObj[nums[i]] = i
+    }
+    
+}
