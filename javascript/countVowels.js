@@ -1,6 +1,6 @@
 function countVowels(str){
-let vowels = ‘aeiouAEIUO’
-let stringArray = str.split("")
+let vowels = 'aeiouAEIUO'
+let stringArray = str.split(" ")
 let numberVowels = 0
 
     for (let i = 0;i < stringArray.length; i++){
