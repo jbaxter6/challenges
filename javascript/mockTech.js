@@ -4,7 +4,7 @@
 // but findMovies(160, [80, 80, 60]) returns true
 
 function findMovies(target, arr){
-    // first we are going to create an object to store the complement of the iteration in the array
+    // first we are going to create an object to store the complement of the iteration in the array.
 
     const compObj = {}
     const length = arr.length
