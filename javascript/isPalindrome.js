@@ -10,6 +10,21 @@ let boolean = true
 return boolean
 };
 
+function isPalindrome(x){
+let arr = x.split("")
+let leng = arr.length 
+// console.log(arr)
+// console.log(arr)
+// console.log(arr.length)
+
+for(let i = 0, j = leng - 1; i < leng; i++, j --){
+    if(arr[i] != arr[j]){
+    return false
+    }
+}
+return true
+}
+
 // isPalindrome(-121)
 // false
 
