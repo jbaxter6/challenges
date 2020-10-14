@@ -10,10 +10,10 @@ function findMovies(target, arr){
     const length = arr.length
 
     for(let i = 0; i < length; i++){
-        if(compObj[arr[i]]){
+        if(compObj[arr[i]] >= 0){
             return true
         }
-        compObj[target - arr[i]]
+        compObj[target - arr[i]] = i
     }
     return false
 }
