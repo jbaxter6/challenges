@@ -1,8 +1,8 @@
 function staircase(n) {
-const hash = '#'
+const hash = '#';
     for(let i = 0; i <= n; i++){
-        return hash.repeat(i).padStart(n)
-        // .padStart starts char at number
+        return hash.repeat(i).padStart(n);
+        // .padStart starts char at number.
     }  
 }
 
