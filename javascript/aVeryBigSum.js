@@ -1,6 +1,6 @@
 function aVeryBigSum(ar) {
-    // first set a sum of 0
-    // then loop through array and add each iter to sum
+    // first set a sum of 0.
+    // then loop through array and add each iter to sum.
     let sum = 0;
     for(let i = 0; i < ar.length; i++){
         sum += ar[i];
